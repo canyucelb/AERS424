@@ -1,0 +1,9 @@
+cmake minimum required(VERSION 3.1)
+
+project(HelloWorld)
+set(CMAKE_CXX_STANDARD 20)
+
+# WorldHello is the name of my binary file
+# what follows are the name of source code files
+
+add_executables(WorldHello main.cpp)
